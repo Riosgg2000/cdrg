@@ -1,0 +1,40 @@
+
+.primera { 
+width: 3%;
+background-color: red; 
+height: 1000px;
+float: left;
+
+}
+.segunda { 
+width: 3%;
+background-color: blue; 
+height: 1000px;
+float: left;
+}
+.tercera { 
+width: 9%;
+background-color:yellow; 
+height: 1000px;
+float: left;
+}
+.cuarta { 
+width: 16%;
+background-color: red; 
+height: 1000px;
+float: left;
+
+}
+.quinta { 
+width: 27%;
+background-color: blue; 
+height: 1000px;
+float: left;
+}
+.sexta { 
+width: 42%;
+background-color:yellow; 
+height: 1000px;
+float: left;
+}
+

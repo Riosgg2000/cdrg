@@ -1,0 +1,58 @@
+#imgg{
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+    display:block;
+    margin:auto;
+  clear: both;
+}
+
+    #izquierda{
+    height: auto;
+    width: 20%;
+    margin: 0%;
+    padding: 0px;
+    float: left;
+    
+    }
+    #centro{
+    height: auto;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    
+    }
+    
+    #derecha{
+    height: auto;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    }
+    
+    a{
+    color: white;
+    }
+
+    #superior{
+        height: 20%;
+        width: max-content;
+        margin: 0px;
+        padding: 0px;
+        display:block;
+        margin:auto;
+      clear: both;
+
+    }
+    
+    #inferior{
+    height: 200px;
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+    display:block;
+        margin:auto;
+        clear: both;
+    }
