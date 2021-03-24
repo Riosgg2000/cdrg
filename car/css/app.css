@@ -1,0 +1,137 @@
+@font-face{
+    font-family: "FIFA Welcome";
+    src: url("img/fonts/fifawelcome.ttf");
+}
+
+#caract{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+    
+}
+#imgcontact{
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin:auto;
+}
+#textcaract{
+   text-align: center;
+   color: white;
+
+
+    }
+
+    
+
+body{
+    background: radial-gradient(at top,  #E02F39,#520004);
+    background-repeat: no-repeat;
+background-attachment: fixed
+}
+
+.logo{ z-index: 0;}
+.navbar{ z-index: 1;    position: static; font-family: "FIFA Welcome"; font-size: 18px}
+.bg-light{
+    background: linear-gradient( #E02F39,#520004);
+    border-radius: 25px;
+}
+.nav-item{    padding: 0px 20px;}
+
+.nav-item:first-child{
+    border-right:#520004 solid 1px;    
+}
+
+.carros{
+    animation: carros_animacion ease-in-out infinite 4s;
+}
+@keyframes carros_animacion{
+    0%{ transform: translateY(-10%)}
+    50%{ transform: translateY(0%)}
+    100%{ transform: translateY(-10%)}
+}
+
+.slider{
+    width: 95%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding:0;
+    width: 300%;
+    animation: banner 10s infinite alternate;
+    animation-timing-function: ease-out;
+}
+
+
+.slider:nth-child(2) ul{
+    animation-timing-function: ease-in;
+
+}
+.slider li{
+    width: 100%;
+    list-style:none;
+}
+
+.slider img{
+    width: 100%
+}
+
+@keyframes banner{
+   0% {margin-left: 0;}
+   40% {margin-left: 0;}
+
+   50% {margin-left: -100%;}
+   75% {margin-left: -100%;}
+
+   85% {margin-left: -200%;}
+   100% {margin-left: -200%;}
+    
+}
+
+
+.slidercar{
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+.slidercar ul{
+    display: flex;
+    padding:0;
+    width: 400%;
+    animation: banner1 20s infinite alternate;
+    animation-timing-function: ease-out;
+}
+
+.slidercar:nth-child(2) ul{
+    animation-timing-function: ease-in;
+
+}
+.slidercar li{
+    width: 100%;
+    list-style:none;
+}
+
+.slidercar img{
+    width: 100%
+}
+
+@keyframes banner1{
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+ 
+    35% {margin-left: -100%;}
+    50% {margin-left: -100%;}
+ 
+    55% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+     
+ }
